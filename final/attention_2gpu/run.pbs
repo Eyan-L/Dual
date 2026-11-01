@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#PBS -N slack-final
+#PBS -P personal-n2602695
+#PBS -q normal
+#PBS -l select=1:ngpus=2:ncpus=16:mem=64gb
+#PBS -l walltime=02:00:01
+#PBS -j oe
+#PBS -r n
+bash "$SLACK_FINAL_ROOT/job.sh"

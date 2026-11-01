@@ -1,0 +1,88 @@
+{
+  "model_path": "/scratch/users/ntu/n2602695/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218",
+  "kv_capacity_tokens": 98304,
+  "mem_fraction_static": 0.85,
+  "context_length_limit": 32768,
+  "random_seed": 20261029,
+  "reference_atol": 0.01,
+  "reference_rtol": 0.02,
+  "remote_capacity_tokens": 5888,
+  "offpath_device": 1,
+  "donor_device": 0,
+  "prefill_kernel": {
+    "name": "peer_auto",
+    "block_m": 64,
+    "splits": 1
+  },
+  "policy": {
+    "s1": "Bulk local headroom refill",
+    "s2": "Fused72plane migration",
+    "s4": "Async copy with next-step ownership commit",
+    "migration_target_total_token_slots": 2048,
+    "strict_ratio": "10000*R<599*L",
+    "direct_remote_write": false,
+    "gemm_only_4prime": false,
+    "allocation": "local first;FIFO victims"
+  },
+  "experiment": "flashinfer_agentlike_persistent_multiturn",
+  "source": "peer",
+  "remote_rows": 8,
+  "tile_rows": 128,
+  "plain_trials": 1,
+  "validation": false,
+  "stage_buffer_bytes": 24117248,
+  "scope": "Four controlled agent-like rounds using shortened trace text excerpts as task/tool material. Same persistent requests and KV; no reset between turns. Each prefill samples first output,128 real decode forwards sample128 more. Pending last output is committed as first token of next prefill before tool text. First7 requests identical in all cases. Native8 enlarged pool is numerical/reference only;its free-generated consumed tokens are replayed for matched timing,not task-success or originalDAG replay. One primary/config;separate exact-point warmup,numerical checks and profiler. Initial prefill included in end-to-end total. No real tools executed or waits inserted. Local-first,FIFO,124/2048 unchanged;prefill supply23MiB charged164slots onlypeer.",
+  "initial_tokens": 11264,
+  "input_tokens_by_turn": [
+    11264,
+    384,
+    544,
+    256
+  ],
+  "decode_forwards_per_turn": 128,
+  "turns": 4,
+  "chunk_tokens": 128,
+  "stage_depth": 1,
+  "final_context": 12960,
+  "corpus_path": "/scratch/users/ntu/n2602695/slack_serving/nvlink_trace_replay/preparation/26072260.pbs101/data/corpus.json",
+  "corpus_sha256": "d2097660e32ca73b89aff7a47de0ec26cd6ab5928391811edae3dfc9427c3d84",
+  "cases": [
+    {
+      "label": "native8_reference",
+      "timing_case": "native_local",
+      "batch": 8,
+      "kv_capacity_tokens": 104192,
+      "stage_depth": 0,
+      "reference_only": true
+    },
+    {
+      "label": "native7",
+      "timing_case": "native_local",
+      "batch": 7,
+      "kv_capacity_tokens": 98304,
+      "stage_depth": 0
+    },
+    {
+      "label": "local7",
+      "timing_case": "custom_all_local",
+      "batch": 7,
+      "kv_capacity_tokens": 98304,
+      "stage_depth": 0
+    },
+    {
+      "label": "peer8",
+      "timing_case": "tiered_peer",
+      "batch": 8,
+      "kv_capacity_tokens": 98140,
+      "stage_depth": 1,
+      "charged_stage_kv_tokens": 164
+    }
+  ],
+  "inputs_path": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/inputs.json",
+  "reuse_cases": [
+    "native8_reference",
+    "native7",
+    "local7"
+  ],
+  "reuse_measurement_root": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/runs/26075145.pbs101/measurement"
+}

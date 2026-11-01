@@ -1,0 +1,22 @@
+# Historical experiments and raw results remain in the local/NSCC workspace.
+/experiments/
+/results/
+/traces/
+/archive/
+/runtime_cache/
+
+# Generated Python/CUDA artifacts and local environment settings.
+__pycache__/
+*.py[cod]
+*.so
+*.o
+.venv/
+.env
+.env.*
+*.sif
+
+# New experiment outputs must not enter the source repository.
+*.log
+*.nsys-rep
+*.ncu-rep
+slack-final.o*

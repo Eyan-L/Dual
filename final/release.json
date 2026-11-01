@@ -1,0 +1,23 @@
+{
+  "name": "slack_serving_final_20261101",
+  "status": "REPACKAGED_VALIDATED_SOURCES",
+  "profiles": {
+    "cooperative_4gpu": {
+      "source": "cooperative_trace_background/launch_20261101_r3",
+      "measured_job": "26079252.pbs101"
+    },
+    "attention_2gpu": {
+      "source": "nvlink_flashinfer_multiturn/launch_20261101_r4",
+      "measured_job": "26075197.pbs101"
+    },
+    "controls/independent_100": {
+      "source": "dual_trace_background/launch_20261101_r3",
+      "measured_job": "26078142.pbs101"
+    },
+    "controls/native_matched": {
+      "source": "dual_trace_capacity_control/launch_20261101_r2",
+      "measured_job": "26079802.pbs101"
+    }
+  },
+  "validation_scope": "Historical GPU evidence belongs to original launches. Packaging verification checks exact source relocation,hashes,syntax and local dependency closure;no new GPU run."
+}

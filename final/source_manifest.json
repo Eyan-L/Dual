@@ -1,0 +1,819 @@
+{
+  "files": [
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/background.py",
+      "original_sha256": "6450604734a26b6a872548411742726dedcd7c956581ae7a14a2720d96288766",
+      "packaged": "cooperative_4gpu/code/background.py",
+      "packaged_sha256": "6450604734a26b6a872548411742726dedcd7c956581ae7a14a2720d96288766",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/backend.py",
+      "original_sha256": "61fd70ad7009cb11f2c22a49db57052b0765e5d0bb2c70f70c7c3cc19aeb957f",
+      "packaged": "cooperative_4gpu/code/peer/backend.py",
+      "packaged_sha256": "25037d22d85c0ad4ddd5239101495b793d3de2e211f708ecd95981ad789ac8bc",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/cascade_oracle.py",
+      "original_sha256": "eb10c78856251a2b293712e82706cad2eebfc21a82054d286d0f999a2e1bc003",
+      "packaged": "cooperative_4gpu/code/peer/cascade_oracle.py",
+      "packaged_sha256": "eb10c78856251a2b293712e82706cad2eebfc21a82054d286d0f999a2e1bc003",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/decode_oracle.py",
+      "original_sha256": "4a638eafded27fda3594fc6b5ba8fd19b06fe1f45e99c4a87e5b76fdd03db858",
+      "packaged": "cooperative_4gpu/code/peer/decode_oracle.py",
+      "packaged_sha256": "4a638eafded27fda3594fc6b5ba8fd19b06fe1f45e99c4a87e5b76fdd03db858",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/flashinfer_peer.py",
+      "original_sha256": "d3d7c736aa70205c5922655d0ee67a23dcf18e63c168cd94a54a29ae79d879fb",
+      "packaged": "cooperative_4gpu/code/peer/flashinfer_peer.py",
+      "packaged_sha256": "d3d7c736aa70205c5922655d0ee67a23dcf18e63c168cd94a54a29ae79d879fb",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/fused_copy.py",
+      "original_sha256": "96d14078247ed0e2485187555ed461106b28103a8fd34ac973e98ddcd2d486e2",
+      "packaged": "cooperative_4gpu/code/peer/fused_copy.py",
+      "packaged_sha256": "96d14078247ed0e2485187555ed461106b28103a8fd34ac973e98ddcd2d486e2",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/host4.py",
+      "original_sha256": "80fdd791f3686901318e6c8898d5d6761d401c9dba52691148dde49ed8117ff8",
+      "packaged": "cooperative_4gpu/code/peer/host4.py",
+      "packaged_sha256": "537dbaf26566397677881aade9a5f26c146536e146a66cff1ed5c8948ed45cb6",
+      "path_literal_replacements": 4,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/layout.py",
+      "original_sha256": "0d1fcf10c37b7e07f32f9fffb050ab5708f9fd20d44ae9fd3d50513c53c89fd8",
+      "packaged": "cooperative_4gpu/code/peer/layout.py",
+      "packaged_sha256": "0d1fcf10c37b7e07f32f9fffb050ab5708f9fd20d44ae9fd3d50513c53c89fd8",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/packing.py",
+      "original_sha256": "c4be8a83635c49371a423ffe38f1fea242dd6fa139346b662c42c2d00e37b129",
+      "packaged": "cooperative_4gpu/code/peer/packing.py",
+      "packaged_sha256": "c4be8a83635c49371a423ffe38f1fea242dd6fa139346b662c42c2d00e37b129",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/page_ops.py",
+      "original_sha256": "a8654cb49b577ff8b2a3aa366d7735a838f945a8a6da1838384affd763e65b0e",
+      "packaged": "cooperative_4gpu/code/peer/page_ops.py",
+      "packaged_sha256": "a8654cb49b577ff8b2a3aa366d7735a838f945a8a6da1838384affd763e65b0e",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/policy.py",
+      "original_sha256": "a99cad4ecb86aa647b003111f5b0c8e492cddc965eb0caf8552441f4bec0cabb",
+      "packaged": "cooperative_4gpu/code/peer/policy.py",
+      "packaged_sha256": "a99cad4ecb86aa647b003111f5b0c8e492cddc965eb0caf8552441f4bec0cabb",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/prefill_backend.py",
+      "original_sha256": "817286da0c4fa7bb56e0ea694d3bce87e58b3a053c95e565f42ad9c5b4cad3e9",
+      "packaged": "cooperative_4gpu/code/peer/prefill_backend.py",
+      "packaged_sha256": "817286da0c4fa7bb56e0ea694d3bce87e58b3a053c95e565f42ad9c5b4cad3e9",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/remote_bank.py",
+      "original_sha256": "96ffc1559381a09af0f9ba429b409f76adb61dd9aa2081ee0d440201dd4bfaef",
+      "packaged": "cooperative_4gpu/code/peer/remote_bank.py",
+      "packaged_sha256": "96ffc1559381a09af0f9ba429b409f76adb61dd9aa2081ee0d440201dd4bfaef",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/peer/staging.py",
+      "original_sha256": "65f27e92524753858fe7c6ce0947a3ec45dde212f5c286a39392e35dae74a900",
+      "packaged": "cooperative_4gpu/code/peer/staging.py",
+      "packaged_sha256": "65f27e92524753858fe7c6ce0947a3ec45dde212f5c286a39392e35dae74a900",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/run.py",
+      "original_sha256": "1387519d838710c45214cd9c96f9c2b7d9307122e334a76ac515ee7153a907a1",
+      "packaged": "cooperative_4gpu/code/run.py",
+      "packaged_sha256": "eac111919240754106113d92504374e4b45a84c3a829a4c2ccd9cee8a3a87e7a",
+      "path_literal_replacements": 4,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/transport.py",
+      "original_sha256": "2618578fac7673d355449b2e5262d4bdd5a133199c28f56f3079882192339b7e",
+      "packaged": "cooperative_4gpu/code/transport.py",
+      "packaged_sha256": "2618578fac7673d355449b2e5262d4bdd5a133199c28f56f3079882192339b7e",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/launch_20261101_r3/code/worker.py",
+      "original_sha256": "fd605481a4209ea4ce4b16cf61d68aa3d64f7ee0a508d5a047d40907dc38568d",
+      "packaged": "cooperative_4gpu/code/worker.py",
+      "packaged_sha256": "fd605481a4209ea4ce4b16cf61d68aa3d64f7ee0a508d5a047d40907dc38568d",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_cooperation/launch_20261030_r1/code/analyze_cooperation.py",
+      "original_sha256": "d96348b6f6302373c9a63a1e6b8b37eefc148f8415a04505fdd6c148b188c94d",
+      "packaged": "vendor/nvlink_cooperation/launch_20261030_r1/code/analyze_cooperation.py",
+      "packaged_sha256": "d96348b6f6302373c9a63a1e6b8b37eefc148f8415a04505fdd6c148b188c94d",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_cooperation/launch_20261030_r1/code/cooperative_attention.py",
+      "original_sha256": "04eb24b0ca876645bf331607b6e81fdadeb388c7be3cf381157ba4276190f60d",
+      "packaged": "vendor/nvlink_cooperation/launch_20261030_r1/code/cooperative_attention.py",
+      "packaged_sha256": "04eb24b0ca876645bf331607b6e81fdadeb388c7be3cf381157ba4276190f60d",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_cooperation/launch_20261030_r1/code/cuda_ipc.py",
+      "original_sha256": "0cf012ed6fe84bb16ac6efac0496e5d35a7d13b8f168b9d5a6843633943a059e",
+      "packaged": "vendor/nvlink_cooperation/launch_20261030_r1/code/cuda_ipc.py",
+      "packaged_sha256": "0cf012ed6fe84bb16ac6efac0496e5d35a7d13b8f168b9d5a6843633943a059e",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_cooperation/launch_20261030_r1/code/measure.py",
+      "original_sha256": "a099976b21b2ee3568b34c1e9594c2c7535533e5336075c72dfff83f0b561d54",
+      "packaged": "vendor/nvlink_cooperation/launch_20261030_r1/code/measure.py",
+      "packaged_sha256": "a099976b21b2ee3568b34c1e9594c2c7535533e5336075c72dfff83f0b561d54",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_cooperation/launch_20261030_r1/code/prefill.py",
+      "original_sha256": "291e03454f10973b6180fa0b2fd8fc3419de4aae94baef6916602c7d6c258d67",
+      "packaged": "vendor/nvlink_cooperation/launch_20261030_r1/code/prefill.py",
+      "packaged_sha256": "291e03454f10973b6180fa0b2fd8fc3419de4aae94baef6916602c7d6c258d67",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_cooperation/launch_20261030_r1/code/prototype.py",
+      "original_sha256": "673fc89c78b13d95aa33e9a2f58335d89fbf14b81a749ac49b4d7633bbe8cdf8",
+      "packaged": "vendor/nvlink_cooperation/launch_20261030_r1/code/prototype.py",
+      "packaged_sha256": "673fc89c78b13d95aa33e9a2f58335d89fbf14b81a749ac49b4d7633bbe8cdf8",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_cooperation/launch_20261030_r1/code/run_cooperation.py",
+      "original_sha256": "1fc2d2eaaeb1229a2589953006c1d5dc77e4a06837f3956d78a6c0aa35947ec9",
+      "packaged": "vendor/nvlink_cooperation/launch_20261030_r1/code/run_cooperation.py",
+      "packaged_sha256": "1fc2d2eaaeb1229a2589953006c1d5dc77e4a06837f3956d78a6c0aa35947ec9",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_throughput/launch_20261030_r1/code/analyze.py",
+      "original_sha256": "e506abc29d8ab4a01b471be3e73083e9536024053fa3706c10f1cb40029e7431",
+      "packaged": "vendor/nvlink_throughput/launch_20261030_r1/code/analyze.py",
+      "packaged_sha256": "e506abc29d8ab4a01b471be3e73083e9536024053fa3706c10f1cb40029e7431",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_throughput/launch_20261030_r1/code/benchmark.py",
+      "original_sha256": "ad60cc48266b6ae740b4d6fe36140140ba2319c9c75641754d2deb537ab046cd",
+      "packaged": "vendor/nvlink_throughput/launch_20261030_r1/code/benchmark.py",
+      "packaged_sha256": "ad60cc48266b6ae740b4d6fe36140140ba2319c9c75641754d2deb537ab046cd",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_throughput/launch_20261030_r1/code/controller.py",
+      "original_sha256": "a3f7c21fd9e70b31eac5d9ca905d2349a8dc6517f8b29d0e48ded7cec8d97288",
+      "packaged": "vendor/nvlink_throughput/launch_20261030_r1/code/controller.py",
+      "packaged_sha256": "a3f7c21fd9e70b31eac5d9ca905d2349a8dc6517f8b29d0e48ded7cec8d97288",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_throughput/launch_20261030_r1/code/experiment_common.py",
+      "original_sha256": "5f0fdac1551ad0aff53f43e543d83ef837338f7db51d6d628001531e88bfb94c",
+      "packaged": "vendor/nvlink_throughput/launch_20261030_r1/code/experiment_common.py",
+      "packaged_sha256": "da77c537da263281eeb67365671a6d7ef4fc1382b2a9284aade6cedefa9f2313",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_throughput/launch_20261030_r1/code/optimized_pages.py",
+      "original_sha256": "9c3dcdd13b714fef2f7c982a08028138194ed5f7f60260a08bca3ee2fa7b7c97",
+      "packaged": "vendor/nvlink_throughput/launch_20261030_r1/code/optimized_pages.py",
+      "packaged_sha256": "9c3dcdd13b714fef2f7c982a08028138194ed5f7f60260a08bca3ee2fa7b7c97",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_throughput/launch_20261030_r1/code/original_pages.py",
+      "original_sha256": "9854409945f080d0c65ef24986a604f8a880316ceb27d7449b23eee5269cfd70",
+      "packaged": "vendor/nvlink_throughput/launch_20261030_r1/code/original_pages.py",
+      "packaged_sha256": "9854409945f080d0c65ef24986a604f8a880316ceb27d7449b23eee5269cfd70",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_throughput/launch_20261030_r1/code/run.py",
+      "original_sha256": "87a8044bc2ef424f7358bc6845c461c3e95519e01eae8ae23beb039c2f0556f2",
+      "packaged": "vendor/nvlink_throughput/launch_20261030_r1/code/run.py",
+      "packaged_sha256": "87a8044bc2ef424f7358bc6845c461c3e95519e01eae8ae23beb039c2f0556f2",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill/launch_20261031_r5/code/campaign.py",
+      "original_sha256": "0657a1af96d8b0f350801cb69f99a9a2e5a562af3b0b503f31db8584962a2740",
+      "packaged": "vendor/nvlink_prefill/launch_20261031_r5/code/campaign.py",
+      "packaged_sha256": "0657a1af96d8b0f350801cb69f99a9a2e5a562af3b0b503f31db8584962a2740",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill/launch_20261031_r5/code/paged_decode.py",
+      "original_sha256": "edc660f071f2bc6f84389151edfa390e810cfc2e874d1dae3084027ce2cb009f",
+      "packaged": "vendor/nvlink_prefill/launch_20261031_r5/code/paged_decode.py",
+      "packaged_sha256": "edc660f071f2bc6f84389151edfa390e810cfc2e874d1dae3084027ce2cb009f",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill/launch_20261031_r5/code/paged_prefill.py",
+      "original_sha256": "50e3da645f7bc6ae1614b7b97f31cc32ccad84f00569a774d088bdd6fc292004",
+      "packaged": "vendor/nvlink_prefill/launch_20261031_r5/code/paged_prefill.py",
+      "packaged_sha256": "50e3da645f7bc6ae1614b7b97f31cc32ccad84f00569a774d088bdd6fc292004",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill/launch_20261031_r5/code/run.py",
+      "original_sha256": "66c41bd55120dfb5a206b8841e0dfc7af9d3a8d7c60cdd9ff5b15eeef9d15e28",
+      "packaged": "vendor/nvlink_prefill/launch_20261031_r5/code/run.py",
+      "packaged_sha256": "2950f0273c2b8a53c87394a03b0d97e83e390fe1881185062fb749a93476adb3",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill/launch_20261031_r5/code/tiered_backend.py",
+      "original_sha256": "e856fc285f3ae6af82ce73223c2b43f355327f3c5a3739413a864611e1534f4b",
+      "packaged": "vendor/nvlink_prefill/launch_20261031_r5/code/tiered_backend.py",
+      "packaged_sha256": "e856fc285f3ae6af82ce73223c2b43f355327f3c5a3739413a864611e1534f4b",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill/launch_20261031_r5/code/validate_kernel.py",
+      "original_sha256": "886e4d4c5f42ecafaa3803c88303a1d18352bfac57121a0d0373780ef24b1a5e",
+      "packaged": "vendor/nvlink_prefill/launch_20261031_r5/code/validate_kernel.py",
+      "packaged_sha256": "886e4d4c5f42ecafaa3803c88303a1d18352bfac57121a0d0373780ef24b1a5e",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_timing/launch_20261031_r2/code/analyze.py",
+      "original_sha256": "aed0391c2f76dc5d2dda7b42a6625f23822456d0f43631589d46874a2a4a5555",
+      "packaged": "vendor/nvlink_prefill_timing/launch_20261031_r2/code/analyze.py",
+      "packaged_sha256": "aed0391c2f76dc5d2dda7b42a6625f23822456d0f43631589d46874a2a4a5555",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_timing/launch_20261031_r2/code/backend.py",
+      "original_sha256": "73919b7d80b7bcd5ea7734f8aef4dc9e1dfc6d3de9c02233a414ac831651f9e5",
+      "packaged": "vendor/nvlink_prefill_timing/launch_20261031_r2/code/backend.py",
+      "packaged_sha256": "73919b7d80b7bcd5ea7734f8aef4dc9e1dfc6d3de9c02233a414ac831651f9e5",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_timing/launch_20261031_r2/code/campaign.py",
+      "original_sha256": "92d01aabe861cdec8bf023750d54af2e9b59441be0bf01a031167d4013725b54",
+      "packaged": "vendor/nvlink_prefill_timing/launch_20261031_r2/code/campaign.py",
+      "packaged_sha256": "567b1640e516c44e3850b76d5379bcf6316b4dfbf0cb95abd58b3a19c881e0e0",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_timing/launch_20261031_r2/code/phase_common.py",
+      "original_sha256": "a5383c574eecf03f2d0ab33594220bb3f69abcfb700e3a607664e9ae71a46fb1",
+      "packaged": "vendor/nvlink_prefill_timing/launch_20261031_r2/code/phase_common.py",
+      "packaged_sha256": "a5383c574eecf03f2d0ab33594220bb3f69abcfb700e3a607664e9ae71a46fb1",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_timing/launch_20261031_r2/code/run.py",
+      "original_sha256": "37c30d44070ff5863c93b024bc970e52d1e449600f9204b808fceb46a7c1d990",
+      "packaged": "vendor/nvlink_prefill_timing/launch_20261031_r2/code/run.py",
+      "packaged_sha256": "8acfa1114fdf8c98d24d75aa3610353480e913c6db30e7e307d8fc39e3f2b8bd",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_dynamic/launch_combinations_20261031_r1/code/backend.py",
+      "original_sha256": "d4ecd8dbe7b918c610017ee414e1f01100e54b7d507ac4c827cf3572c8aa98fc",
+      "packaged": "vendor/nvlink_dynamic/launch_combinations_20261031_r1/code/backend.py",
+      "packaged_sha256": "860e214f440b3692e48156c2871f07c114e814acad56bb0f848dd6077120b74f",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_dynamic/launch_combinations_20261031_r1/code/campaign.py",
+      "original_sha256": "0bf4edc1dd0bcb2c3f200a30a6aebcc4a232cbbf06e7cc3468016ec5366bda40",
+      "packaged": "vendor/nvlink_dynamic/launch_combinations_20261031_r1/code/campaign.py",
+      "packaged_sha256": "0bf4edc1dd0bcb2c3f200a30a6aebcc4a232cbbf06e7cc3468016ec5366bda40",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_dynamic/launch_combinations_20261031_r1/code/direct_write.py",
+      "original_sha256": "317ae6889a91c429e18d461be804dd4573ed5c886e3738bbbfc1fddd4e79a8c7",
+      "packaged": "vendor/nvlink_dynamic/launch_combinations_20261031_r1/code/direct_write.py",
+      "packaged_sha256": "317ae6889a91c429e18d461be804dd4573ed5c886e3738bbbfc1fddd4e79a8c7",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_dynamic/launch_combinations_20261031_r1/code/experiment.py",
+      "original_sha256": "cb2e4845d5d4766c8c1dd19c33e08d40c0a4affca44ee96f6f8ad52cd5733347",
+      "packaged": "vendor/nvlink_dynamic/launch_combinations_20261031_r1/code/experiment.py",
+      "packaged_sha256": "cb2e4845d5d4766c8c1dd19c33e08d40c0a4affca44ee96f6f8ad52cd5733347",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_dynamic/launch_combinations_20261031_r1/code/fused_copy.py",
+      "original_sha256": "e92fd724713d961d5c3181610d481d4ebc725a5a0f04e2dff8ef7d8dcc5fb002",
+      "packaged": "vendor/nvlink_dynamic/launch_combinations_20261031_r1/code/fused_copy.py",
+      "packaged_sha256": "e92fd724713d961d5c3181610d481d4ebc725a5a0f04e2dff8ef7d8dcc5fb002",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_dynamic/launch_combinations_20261031_r1/code/run.py",
+      "original_sha256": "d6aa0eb0504c28b6a92a09804a4985f6c252c99fa9ffa475c3b6cc5d538655a5",
+      "packaged": "vendor/nvlink_dynamic/launch_combinations_20261031_r1/code/run.py",
+      "packaged_sha256": "588fcf6e5f4ce0a03fb9abeeac28ed65ba436f21444e865a7c0b83c4ab15452a",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_migration_latency/launch_large_20261031_r2/code/backend.py",
+      "original_sha256": "8afeaa3373ceeadcc27aa3b6f8dddf03ce4ad61132662b1c6aa2f836474f20a9",
+      "packaged": "vendor/nvlink_migration_latency/launch_large_20261031_r2/code/backend.py",
+      "packaged_sha256": "84325afeaca9157aad25a04fa696909db28a5260cd84709df612045dbd7ded5b",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_migration_latency/launch_large_20261031_r2/code/experiment.py",
+      "original_sha256": "e1b70d622403a5bb43d804774ccf567e53a5f04e0daa66af925c9f40b1d8566a",
+      "packaged": "vendor/nvlink_migration_latency/launch_large_20261031_r2/code/experiment.py",
+      "packaged_sha256": "e1b70d622403a5bb43d804774ccf567e53a5f04e0daa66af925c9f40b1d8566a",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_migration_latency/launch_large_20261031_r2/code/fused_copy.py",
+      "original_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "packaged": "vendor/nvlink_migration_latency/launch_large_20261031_r2/code/fused_copy.py",
+      "packaged_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_migration_latency/launch_large_20261031_r2/code/run.py",
+      "original_sha256": "e5cdfa6dd4f6336e7c9f5b98af7b8e46e5340d57eb08362f5f0be9348d367bfd",
+      "packaged": "vendor/nvlink_migration_latency/launch_large_20261031_r2/code/run.py",
+      "packaged_sha256": "57d5be54597fe4f403b24cf606dee73a9ccdb8c3c986117356b27cea3b117a0b",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/analyze.py",
+      "original_sha256": "58c2606e03fa2f3565d019e01d505c12ae8b7df1163e339e99f13c39bbe88d3d",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/analyze.py",
+      "packaged_sha256": "e0f7406ef61247538db5da97234357110e8c3fbbd466fc8ec09176de68f01d05",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/backend.py",
+      "original_sha256": "4b48a6aa2a0393532f7056866143e5593a1a078fd302d28a18fb504c9e262dfb",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/backend.py",
+      "packaged_sha256": "a6fc68bdcb0ab2e39275167f6f9141ab1c7d7cd911bf6c9c5692c6882e806830",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/campaign.py",
+      "original_sha256": "47272f01724125bc093e98f5d6a9691127d379978d9ce950aeafe9fd168b2f59",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/campaign.py",
+      "packaged_sha256": "47272f01724125bc093e98f5d6a9691127d379978d9ce950aeafe9fd168b2f59",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/check_kernel.py",
+      "original_sha256": "07d7f9767f3bb77f3c6df3244dc67f9659bc008b065d1e4a7e9c4e230d40e3e2",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/check_kernel.py",
+      "packaged_sha256": "8cf44246c8ba4307935488c8be6a5cfee370cd9d27478d2db11d5c762373fc1c",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/experiment.py",
+      "original_sha256": "f873f936e318a44004df6d5dfa08e9454cb682341fff54550f1de6d5daa925ff",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/experiment.py",
+      "packaged_sha256": "f873f936e318a44004df6d5dfa08e9454cb682341fff54550f1de6d5daa925ff",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/fused_copy.py",
+      "original_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/fused_copy.py",
+      "packaged_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/optimized_prefill.py",
+      "original_sha256": "c58fc3c23d16bad011cde47cbd2c635762f89a6ae8a653f552eaf5fec3cb8aae",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/optimized_prefill.py",
+      "packaged_sha256": "c58fc3c23d16bad011cde47cbd2c635762f89a6ae8a653f552eaf5fec3cb8aae",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_prefill_opt/launch_20261031_r3/code/run.py",
+      "original_sha256": "1be427397c18f275cf21d3cd3f066fb51b629b5b5a1970f492dfd39c473dc2c9",
+      "packaged": "vendor/nvlink_prefill_opt/launch_20261031_r3/code/run.py",
+      "packaged_sha256": "fc205d77ef5b7bbe3d6f525106ad45a2d29a8deef18e1ced6411b2e1b4874bdf",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/analyze.py",
+      "original_sha256": "f542c857173f0f31f31984ac801ab9a8f0ad398a507a8ca1acddace231e4d5d8",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/analyze.py",
+      "packaged_sha256": "4f50492044f1366579f110d89263e31e4836be001f72633d918aa954b356ca59",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/backend.py",
+      "original_sha256": "e19f107803895c640e7822cf90436c43701b5971bd53d9a432a1302889e3d0e1",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/backend.py",
+      "packaged_sha256": "421e483024faa3c08e5ba5218fbab382f414e66f8bcc85439f50bfa93075c8a1",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/check_bookkeeping.py",
+      "original_sha256": "3c39f1217118ceabfb3d62b8b3f162b29f67090f6990667f17c8564879d5a423",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/check_bookkeeping.py",
+      "packaged_sha256": "3c39f1217118ceabfb3d62b8b3f162b29f67090f6990667f17c8564879d5a423",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/experiment.py",
+      "original_sha256": "05a8c035614f2d672220fc9f22eafc6c24d0c0d3affb540f8e1f6a5d795b7da1",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/experiment.py",
+      "packaged_sha256": "05a8c035614f2d672220fc9f22eafc6c24d0c0d3affb540f8e1f6a5d795b7da1",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/fused_copy.py",
+      "original_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/fused_copy.py",
+      "packaged_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/optimized_prefill.py",
+      "original_sha256": "c58fc3c23d16bad011cde47cbd2c635762f89a6ae8a653f552eaf5fec3cb8aae",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/optimized_prefill.py",
+      "packaged_sha256": "c58fc3c23d16bad011cde47cbd2c635762f89a6ae8a653f552eaf5fec3cb8aae",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/page_ops.py",
+      "original_sha256": "c871fcb6276e87af55ab125b39f21ec8976a95e18820effa1808e22515539354",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/page_ops.py",
+      "packaged_sha256": "c871fcb6276e87af55ab125b39f21ec8976a95e18820effa1808e22515539354",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/replay.py",
+      "original_sha256": "62e4bb76020d4e111876668d573eb5f63ed00f14483c0d582cdbda9d90383ee0",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/replay.py",
+      "packaged_sha256": "62e4bb76020d4e111876668d573eb5f63ed00f14483c0d582cdbda9d90383ee0",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_short_serving/launch_local_20261031_r2/code/run.py",
+      "original_sha256": "0a839683d3fbb1c687cb08faffffb0bb99c8e6ab836f71dc20e7693dcc8af14d",
+      "packaged": "vendor/nvlink_short_serving/launch_local_20261031_r2/code/run.py",
+      "packaged_sha256": "b5ff4c863f4eaf08bd8a81fa306f385ea3c2fddd77e818b3f14cb56936ac9981",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/analyze.py",
+      "original_sha256": "4bd6d9e0afe926bab0a3d7a1dd54be8936cb3f39f29df2e06749ab7448d93982",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/analyze.py",
+      "packaged_sha256": "5c6bc8a747e87135a1d49d545c2a222c9ce1a922b70459e58fd09795c025b493",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/backend.py",
+      "original_sha256": "66768e9b27864f3ee212b16e42c1193a795c0a87356d6612c389a1ae70bcb29d",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/backend.py",
+      "packaged_sha256": "54abe7d070b7301c07ba91a4192b3de5cdd5b9930b6427f14161079b2f61ade1",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/campaign.py",
+      "original_sha256": "5bcf7fd3d8c8a49b2ea02fa9d03d896c14a44232d7139055b7befaeecdb2d825",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/campaign.py",
+      "packaged_sha256": "5bcf7fd3d8c8a49b2ea02fa9d03d896c14a44232d7139055b7befaeecdb2d825",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/flashinfer_peer.py",
+      "original_sha256": "e7412175fe58eb5edba1da9c062385a0c50b425c4bab72629e83cf782c267f27",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/flashinfer_peer.py",
+      "packaged_sha256": "e7412175fe58eb5edba1da9c062385a0c50b425c4bab72629e83cf782c267f27",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/fused_copy.py",
+      "original_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/fused_copy.py",
+      "packaged_sha256": "9b935ca0812f4969edae53df8e689af0f260cfaa38542799187f392a9c3ab0ba",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/optimized_prefill.py",
+      "original_sha256": "c58fc3c23d16bad011cde47cbd2c635762f89a6ae8a653f552eaf5fec3cb8aae",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/optimized_prefill.py",
+      "packaged_sha256": "c58fc3c23d16bad011cde47cbd2c635762f89a6ae8a653f552eaf5fec3cb8aae",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/page_ops.py",
+      "original_sha256": "c871fcb6276e87af55ab125b39f21ec8976a95e18820effa1808e22515539354",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/page_ops.py",
+      "packaged_sha256": "c871fcb6276e87af55ab125b39f21ec8976a95e18820effa1808e22515539354",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/run.py",
+      "original_sha256": "d7a267ac71960e933622b2675a77982a9feecb321b99d9de0271357c24737c11",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/run.py",
+      "packaged_sha256": "d4f7ed84aecab24e35453fb0f9b48056dde51cfb1276d455c4549ec989113550",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/stage_budget.py",
+      "original_sha256": "f1a3c1102d06cfd1c16c77307b7d26a3868a577b43729fc4c4fedaee8eb6ad2d",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/stage_budget.py",
+      "packaged_sha256": "f1a3c1102d06cfd1c16c77307b7d26a3868a577b43729fc4c4fedaee8eb6ad2d",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/trace_index.py",
+      "original_sha256": "b87849230b8f35a3488ea67a1f9a4e5204c9412f768574ec7749d66eec9881c9",
+      "packaged": "vendor/nvlink_flashinfer_interleaved_decode/launch_20261101_r3/code/trace_index.py",
+      "packaged_sha256": "b87849230b8f35a3488ea67a1f9a4e5204c9412f768574ec7749d66eec9881c9",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/cooperative_trace_background/analyze.py",
+      "original_sha256": "8b19564817fde478d1a55b11c35c5e95b02806b14670c85ab65b79f8a62edf9f",
+      "packaged": "cooperative_4gpu/analyze.py",
+      "packaged_sha256": "ecd59e862fe77ebb8690c65e3e240a63eb0cc316791548f10ee482e2be4d8c33",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/home/eyan/Slack_serving/experiments/05_trace_serving/cooperative_trace_background/make_presentation.py",
+      "original_sha256": "ba49b5ffe96c83687dd75f11233bec3be4b20a094efd57736c64c386d1c6e20c",
+      "packaged": "cooperative_4gpu/make_presentation.py",
+      "packaged_sha256": "126953b4e44dc8415440fbf704258007171cfa50be5a867788b5fc7b598a9cd9",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only",
+      "original_snapshot": "cooperative_4gpu/provenance/original_make_presentation.py",
+      "remote_archived_source": "experiments/05_trace_serving/cooperative_trace_background/make_presentation.py",
+      "remote_source_sha256": "673231aa09ef3269de7306bb35b6ad053d9ff2c1b662dee6cb773df65d2ba861",
+      "source_environment": "Local WSL presentation helper is newer; preserve both origins. Runtime kernel sources are identical."
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/analyze.py",
+      "original_sha256": "2b39fa82bc3b51768080dde3b5adaa583f6f319e49e49a54a804a93d33f5018e",
+      "packaged": "attention_2gpu/code/analyze.py",
+      "packaged_sha256": "a7b766b551d7005893ada0f2c2e639403969a4492fa257fad9e5f92995b4c35e",
+      "path_literal_replacements": 2,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/cascade_oracle.py",
+      "original_sha256": "eb10c78856251a2b293712e82706cad2eebfc21a82054d286d0f999a2e1bc003",
+      "packaged": "attention_2gpu/code/cascade_oracle.py",
+      "packaged_sha256": "eb10c78856251a2b293712e82706cad2eebfc21a82054d286d0f999a2e1bc003",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/decode_oracle.py",
+      "original_sha256": "3f8f3fa804604df1bbd5927a63788d55163588d67e81050a59d9fd2069c60112",
+      "packaged": "attention_2gpu/code/decode_oracle.py",
+      "packaged_sha256": "3f8f3fa804604df1bbd5927a63788d55163588d67e81050a59d9fd2069c60112",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/layout.py",
+      "original_sha256": "0d1fcf10c37b7e07f32f9fffb050ab5708f9fd20d44ae9fd3d50513c53c89fd8",
+      "packaged": "attention_2gpu/code/layout.py",
+      "packaged_sha256": "0d1fcf10c37b7e07f32f9fffb050ab5708f9fd20d44ae9fd3d50513c53c89fd8",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/packing.py",
+      "original_sha256": "c4be8a83635c49371a423ffe38f1fea242dd6fa139346b662c42c2d00e37b129",
+      "packaged": "attention_2gpu/code/packing.py",
+      "packaged_sha256": "c4be8a83635c49371a423ffe38f1fea242dd6fa139346b662c42c2d00e37b129",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/prefill_backend.py",
+      "original_sha256": "64c44f2fc8999a045f63678d6f7f68dd0a6baf0db6b106d9c871ead4d2ae7ce0",
+      "packaged": "attention_2gpu/code/prefill_backend.py",
+      "packaged_sha256": "64c44f2fc8999a045f63678d6f7f68dd0a6baf0db6b106d9c871ead4d2ae7ce0",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/prepare_inputs.py",
+      "original_sha256": "41617f0a0afb4bd0361537222c89212c1c8ccc01dbd76fd6b868c43aa2b9b25d",
+      "packaged": "attention_2gpu/code/prepare_inputs.py",
+      "packaged_sha256": "41617f0a0afb4bd0361537222c89212c1c8ccc01dbd76fd6b868c43aa2b9b25d",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/run.py",
+      "original_sha256": "843b05b5a306fa692424a502d4d2d73ed3acfd48b2393c9b9b7317f4c346a875",
+      "packaged": "attention_2gpu/code/run.py",
+      "packaged_sha256": "cc7b23939b1f254e4e975aa6eb67cf2ff31bc6fed2e5e352d4e4e6775bd3d92b",
+      "path_literal_replacements": 3,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/session.py",
+      "original_sha256": "f54f3dc8ff3d0f5a9ed2c51ee0caf1d2be0e955161ad2addda7dd631c9bb6338",
+      "packaged": "attention_2gpu/code/session.py",
+      "packaged_sha256": "f54f3dc8ff3d0f5a9ed2c51ee0caf1d2be0e955161ad2addda7dd631c9bb6338",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/nvlink_flashinfer_multiturn/launch_20261101_r4/code/staging.py",
+      "original_sha256": "7adac8e991da8cb082038ebe1150def2c8f76296b0d7b66aee022d186ee5d1fc",
+      "packaged": "attention_2gpu/code/staging.py",
+      "packaged_sha256": "7adac8e991da8cb082038ebe1150def2c8f76296b0d7b66aee022d186ee5d1fc",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_background/launch_20261101_r3/code/background.py",
+      "original_sha256": "c12d1fe111260312da20c049642056a9289cd33834c1b2937142944b48b216d3",
+      "packaged": "controls/independent_100/code/background.py",
+      "packaged_sha256": "c12d1fe111260312da20c049642056a9289cd33834c1b2937142944b48b216d3",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_background/launch_20261101_r3/code/run.py",
+      "original_sha256": "96a1b0074576c80e0625b109621d1b52aae54ee7adad690779fd155ed17e9c2b",
+      "packaged": "controls/independent_100/code/run.py",
+      "packaged_sha256": "96a1b0074576c80e0625b109621d1b52aae54ee7adad690779fd155ed17e9c2b",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_background/launch_20261101_r3/code/worker.py",
+      "original_sha256": "450f33afcd58e39dad73b51c04b745f42aa2bf2ca24ab19433c8a7a8503a3f69",
+      "packaged": "controls/independent_100/code/worker.py",
+      "packaged_sha256": "450f33afcd58e39dad73b51c04b745f42aa2bf2ca24ab19433c8a7a8503a3f69",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_background/analyze.py",
+      "original_sha256": "5f7c70941e3f5ed1ab4937198a7b11ce0226b8c3d5561ae599cd93ada9314b4b",
+      "packaged": "controls/independent_100/analyze.py",
+      "packaged_sha256": "5f7c70941e3f5ed1ab4937198a7b11ce0226b8c3d5561ae599cd93ada9314b4b",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_background/make_presentation.py",
+      "original_sha256": "7bd8ba95529ce7461cf9eca94f205613ea0dfd0d177f8316b263f834be0c6c07",
+      "packaged": "controls/independent_100/make_presentation.py",
+      "packaged_sha256": "f2e3bd71ab719d0f7c6a67d583ff86c8ac6a1a38e8fd3d453758c78df7a08c36",
+      "path_literal_replacements": 1,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_capacity_control/launch_20261101_r2/code/background.py",
+      "original_sha256": "f681ced2df90e346faf7985a9687348ecfefcae21d13920cb77cf7a7d1309073",
+      "packaged": "controls/native_matched/code/background.py",
+      "packaged_sha256": "f681ced2df90e346faf7985a9687348ecfefcae21d13920cb77cf7a7d1309073",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_capacity_control/launch_20261101_r2/code/run.py",
+      "original_sha256": "606050c9c562ac5a6f05a6268dc0b0ffbfb2148a6a09db6452b3aeb0f477e61f",
+      "packaged": "controls/native_matched/code/run.py",
+      "packaged_sha256": "606050c9c562ac5a6f05a6268dc0b0ffbfb2148a6a09db6452b3aeb0f477e61f",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_capacity_control/launch_20261101_r2/code/worker.py",
+      "original_sha256": "d6685036de3732a791e9d079d29372e9815b6f493c0aed5496a2dc3a307bd659",
+      "packaged": "controls/native_matched/code/worker.py",
+      "packaged_sha256": "d6685036de3732a791e9d079d29372e9815b6f493c0aed5496a2dc3a307bd659",
+      "path_literal_replacements": 0,
+      "change_scope": "byte-identical"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_capacity_control/analyze.py",
+      "original_sha256": "449e0f8fcb778e2725ca80a57b500fef8d76d8abc5c67a1a88a5439a746f0ef9",
+      "packaged": "controls/native_matched/analyze.py",
+      "packaged_sha256": "5ca5359ae51e978e89e09fe10cfba41e28f9b362f3a5b829a12a31ef7472ddef",
+      "path_literal_replacements": 3,
+      "change_scope": "path relocation only"
+    },
+    {
+      "original": "/scratch/users/ntu/n2602695/slack_serving/dual_trace_capacity_control/make_presentation.py",
+      "original_sha256": "65775452f7474ee464aeccc7f92e5f5966a94bbdac1a3400f657fdcfae217028",
+      "packaged": "controls/native_matched/make_presentation.py",
+      "packaged_sha256": "133b1515b1f24ccfcd8cebe24bf0b6a8a88c8e18adad3edfdb6998b220cadde2",
+      "path_literal_replacements": 4,
+      "change_scope": "path relocation only"
+    }
+  ],
+  "source_files": 101,
+  "vendor_directories": 9,
+  "changes": "Only filesystem path literals and package-root discovery are adapted;GPU kernels,math,scheduling and timing code unchanged."
+}
