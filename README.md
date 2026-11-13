@@ -1,8 +1,8 @@
-# Slack Serving
+# Dual
 
 快速上手见下节，版本与来源说明见 [final/README.md](final/README.md)。`final/cooperative_4gpu/` 是当前最后采用的完整合作版本；`final/attention_2gpu/` 是双卡 attention 与多轮执行基础版，两者用途不同。
 
-GitHub 公开仓库：[Eyan-L/Slack-Serving](https://github.com/Eyan-L/Slack-Serving)。仓库跟踪 `final/`、本说明和项目操作约定，包含代码、配置、冻结依赖、提交脚本及来源校验信息。`final/data/corpus.json` 是复现所需的输入语料，随最终版提交。下列历史实验、结果、原始 trace、整理记录及运行缓存仅保留在本地 / NSCC，不纳入 Git。
+GitHub 公开仓库：[Eyan-L/Dual](https://github.com/Eyan-L/Dual)。仓库跟踪 `final/`、本说明和项目操作约定，包含代码、配置、冻结依赖、提交脚本及来源校验信息。`final/data/corpus.json` 是复现所需的输入语料，随最终版提交。下列历史实验、结果、原始 trace、整理记录及运行缓存仅保留在本地 / NSCC，不纳入 Git。
 
 ## 快速上手
 
@@ -13,8 +13,8 @@ GitHub 公开仓库：[Eyan-L/Slack-Serving](https://github.com/Eyan-L/Slack-Ser
 克隆公开仓库，将项目放在计算节点和容器均可访问的共享目录：
 
 ```bash
-git clone https://github.com/Eyan-L/Slack-Serving.git
-cd Slack-Serving
+git clone https://github.com/Eyan-L/Dual.git
+cd Dual
 ```
 
 | 入口 | GPU 数量 | 用途 |
